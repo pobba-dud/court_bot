@@ -7,7 +7,7 @@ from getpass import getpass
 from playwright.async_api import async_playwright
 
 CONFIG_FILE = "config.json"
-DEV_MODE = True  # Set False for production
+DEV_MODE = 0  # Set False for production
 
 
 def save_config(data):

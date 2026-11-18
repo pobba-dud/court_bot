@@ -1,0 +1,13 @@
+# Local config — contains login info, NEVER commit
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller build output
+build/
+dist/
+*.lnk
